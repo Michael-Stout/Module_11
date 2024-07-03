@@ -24,7 +24,7 @@ I assessed feature importance by examining the coefficients of the linear models
 ## Results and Discussion
 The analysis reveals that the odometer reading and the year of manufacture are the most influential factors in determining a car's price. Higher odometer values negatively impact the price, while older cars are less valuable.
 
-### Recommendations
+## Recommendations
 
 Based on the analysis of feature importances via coefficients from a Linear Regression model, here are clear recommendations on what consumers value in a used car:
 
