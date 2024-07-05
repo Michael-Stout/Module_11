@@ -23,8 +23,52 @@ Surprisingly, all models scored roughly the same for training and test scores.
 ## Feature Importance
 I assessed feature importance by examining the coefficients of the linear models. The "odometer" variable showed a strong negative relationship with the price target, indicating that the more miles on a car, the less valuable it becomes. Six other variables displayed sizeable effects on the price.
 
-## Results and Discussion
-The analysis reveals that the odometer reading and the year of manufacture are the most influential factors in determining a car's price. Higher odometer values negatively impact the price, while older cars are less valuable.
+## Results
+
+<img src="/images/feature_importances.png.png" alt="Feature Importances" class="center" style="width:600px;height:auto;">
+
+The provided chart displays the feature importances for a linear regression model, visualized through the coefficients assigned to each feature. Here is an interpretation of these results:
+
+1. **Year**:
+   - This feature has the highest positive coefficient, indicating that it is the most influential predictor in increasing the dependent variable (likely price or value of a vehicle).
+   - A newer vehicle year significantly increases the predicted value.
+
+2. **Manufacturer**:
+   - This feature also has a high positive coefficient, suggesting that the make of the vehicle is a strong positive predictor of its value.
+   - Certain manufacturers likely contribute more positively to the vehicle's value.
+
+3. **Fuel**:
+   - This feature has a positive coefficient, indicating that the type of fuel (e.g., gasoline, diesel) positively influences the predicted value.
+   - Specific fuel types might be more desirable, thus increasing the vehicle's value.
+
+4. **Odometer**:
+   - This feature has a significant negative coefficient, meaning that higher mileage on the odometer reduces the vehicle's predicted value.
+   - More miles driven usually correlate with wear and tear, thus decreasing the vehicle's value.
+
+5. **Title Status**:
+   - This feature has a small positive coefficient, suggesting it has a minimal but positive influence on the predicted value.
+   - A clean title status might slightly increase the vehicle's value.
+
+6. **Transmission**:
+   - This feature has a moderate positive coefficient, indicating that certain transmission types (e.g., automatic, manual) positively affect the predicted value.
+   - Specific transmission types may be more sought after, thus increasing the vehicle's value.
+
+7. **Drive**:
+   - This feature has a positive coefficient, suggesting that the drivetrain (e.g., FWD, RWD, AWD) positively influences the vehicle's value.
+   - Certain drivetrains may be more desirable, hence increasing the vehicle's value.
+
+8. **Type**:
+   - This feature has a significant positive coefficient, indicating that the vehicle type (e.g., SUV, sedan) positively impacts the predicted value.
+   - Specific vehicle types might be more popular, thus increasing the vehicle's value.
+
+9. **Paint Color**:
+   - This feature has a minimal impact as its coefficient is close to zero, indicating that the color of the vehicle is not a strong predictor of its value.
+
+10. **Cylinders**:
+    - This feature has a moderate positive coefficient, suggesting that the number of cylinders in the engine positively influences the predicted value.
+    - Vehicles with more cylinders might be more powerful and desirable, thus increasing the vehicle's value.
+
+Overall, the model indicates that the year of the vehicle is the most critical factor in predicting its value, followed by the manufacturer, odometer reading, and other features such as fuel type, cylinders, and vehicle type. Negative coefficients like the odometer reading decrease the value, while positive coefficients increase it.
 
 ## Recommendations
 
