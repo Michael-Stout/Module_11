@@ -27,7 +27,7 @@ I assessed feature importance by examining the coefficients of the linear models
 
 <img src="https://github.com/Michael-Stout/Module_11/blob/master/images/feature_importances.png" class="center" style="width:600px;height:auto;">
 
-The provided chart displays the feature importances for a linear regression model, visualized through the coefficients assigned to each feature. Here is an interpretation of these results:
+This chart displays the feature importances for a linear regression model, visualized through the coefficients assigned to each feature. Here is an interpretation of these results:
 
 1. **Year**:
    - This feature has the highest positive coefficient, indicating that it is the most influential predictor in increasing the dependent variable (likely price or value of a vehicle).
