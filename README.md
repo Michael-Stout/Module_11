@@ -25,7 +25,7 @@ I assessed feature importance by examining the coefficients of the linear models
 
 ## Results
 
-<img src="/images/feature_importances.png.png" alt="Feature Importances" class="center" style="width:600px;height:auto;">
+<img src="https://github.com/Michael-Stout/Module_11/blob/master/images/feature_importances.png" class="center" style="width:600px;height:auto;">
 
 The provided chart displays the feature importances for a linear regression model, visualized through the coefficients assigned to each feature. Here is an interpretation of these results:
 
