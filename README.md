@@ -5,6 +5,7 @@ This project aims to understand the factors that influence car prices. The objec
 
 The Jupyter notebook contains the analysis and recommendations based on the dataset provided. The analysis includes data cleaning, exploratory data analysis, feature engineering, regression modeling, and feature importance analysis and can be found [here](https://github.com/Michael-Stout/Module_11/blob/8af475b1e990b4745f1a6fdcd221535a0a96fd45/src/prompt_II.ipynb).
 
+https://github.com/michael-stout/Module_11/blob/main/scr/prompt_II.ipynb
 
 ## Methodology
 The methodology for this assignment follows the CRISP-DM framework and includes standard machine learning stages such as Business Understanding, Data Understanding, Data Preparation, Modeling, and Evaluation. 
